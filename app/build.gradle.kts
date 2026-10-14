@@ -36,4 +36,5 @@ dependencies {
     implementation("com.google.mediapipe:tasks-retrieval:1.1.0")
     // Bundled face detector: no Google Play Services model download.
     implementation("com.google.mlkit:face-detection:16.1.7")
+    testImplementation("junit:junit:4.13.2")
 }
